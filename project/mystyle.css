@@ -1,0 +1,41 @@
+.blue-section {
+    background-color: #1c599b;
+    color: white;
+    height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-bottom: 40px;
+}
+.buttonn{
+    background-color: #0a0707;
+}
+
+.carousel-item {
+    margin-top: 10px;
+    position: relative;
+    font-size: 50px;
+    padding: 30px;
+    height: 50%;
+}
+
+.carousel-caption {
+    position: absolute;
+   margin-top:  90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-custom {
+background-color: #f7f1f0; 
+color: rgb(20, 18, 18); 
+font-size: 16px; 
+font-weight: bold;
+padding: 12px 20px; 
+border-radius: 30px; 
+transition: background-color 0.3s ease, transform 0.2s ease; 
+}
